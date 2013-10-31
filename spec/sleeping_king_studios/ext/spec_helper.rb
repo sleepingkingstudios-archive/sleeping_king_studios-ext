@@ -1,8 +1,6 @@
 # spec/sleeping_king_studios/ext/spec_helper.rb
 
-Bundler.require # because the Gemfile specifies gems from git
-
-require 'rspec'
+Bundler.require :development # because the Gemfile specifies gems from git
 
 #=# Require Factories, Custom Matchers, &c #=#
 Dir[File.join __dir__, 'support', '**', '*.rb'].each { |f| require f }

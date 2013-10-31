@@ -23,4 +23,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rspec',  '~> 2.14'
   gem.add_development_dependency 'fuubar', '~> 1.2.1'
   gem.add_development_dependency 'yard',   '~> 0.8.7'
+
+  gem.add_development_dependency 'rspec-sleeping_king_studios', '~> 1.0.0.rc.3'
 end # gemspec
