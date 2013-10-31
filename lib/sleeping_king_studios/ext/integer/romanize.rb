@@ -9,9 +9,9 @@ class Integer
   # Maximum allowed value for the #romanize method.
   ROMANIZE_MAX = 4999
 
-  # Returns the value as a string of Roman numerals, i.e. the number 7 becomes
-  # the string "VII". The number must be greater than 0 and less than 5000
-  # (numbers between 4000 and 4999 are represented by MMMM).
+  # Returns the value as a string of Roman numerals. The number must be greater
+  # than 0 and less than 5000 (numbers between 4000 and 4999 are represented by
+  # the string MMMM in the thousands place).
   #
   # @param [Hash] options The romanization options.
   # @option options [Boolean] additive If true, uses the structure IIII for 4
