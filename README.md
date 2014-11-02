@@ -5,6 +5,10 @@ A collection of extensions to core classes.
 YARD documentation is available at
 [RubyDoc.info](http://rubydoc.info/github/sleepingkingstudios/sleeping_king_studios-ext).
 
+## Deprecation Notice
+
+This project has been deprecated in favor of [SleepingKingStudios::Tools](https://github.com/sleepingkingstudios/sleeping_king_studios-tools), and is no longer maintained.
+
 ## The Extensions
 
 ### Array\#fold
